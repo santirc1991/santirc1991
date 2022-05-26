@@ -1,0 +1,215 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.logo img{
+
+    width: 50%;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(242, 220, 245);
+    font-size: 14px;
+}
+
+h1{
+    font-size: 3em;
+}
+
+.container{
+    display: flex;
+    width: 70%;
+    max-width: 1700px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav {
+    background-color: #fca311;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+nav .nav {
+    padding: .9em 0em;
+}
+
+
+nav .container ul li {
+    display: inline;
+    padding: .2em;
+}
+
+nav .container ul li a{
+    font-size: 1em;
+    color: #000000;
+    padding: .8em 1em;
+    border-radius: 10px;
+}
+
+nav .container ul li a:hover{
+    color: beige;
+    background: color #e5e5e5;
+}
+
+
+section .wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    width: 70%;
+    height: 65vh;
+    max-width: 1700px;
+    margin: auto;
+    text-align: center;
+    font-size: 1.4em;
+   
+}
+
+
+.imagen img {
+    margin: 2em ;
+
+}
+
+.bienvenida .down {
+    margin-top: 2em;
+    
+}
+
+.bienvenida {
+    background-color: #e5e5e5;
+  
+
+}
+
+.bienvenida a{
+margin-top: 1em; 
+display: block;
+background-color: rgb(0, 41, 68);
+width: 50%;
+margin-left: auto;
+margin-right: auto;
+padding: 0.5em;
+color: #ffffff;
+}
+
+.servicios {
+    background-color: rgb(0, 41, 68);
+    color: #ffffff;
+     margin-top: -40px;
+    
+}
+
+.text-servicio h1{
+    font-size: 3em;
+}
+
+.text-servicio p {
+    font-size: 1.7em;
+}
+
+.MI-RECORRIDO{
+    background-color: #e5e5e5;
+}
+
+
+.PORTAFOLIO{
+    background-color: rgb(0, 41, 68);
+    color: #fff;
+}
+
+.text-servicio{
+    padding: 2em;
+    text-align: center;
+}
+
+.grupo-tarjetas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    width: 70%;
+    max-width: 1700px;
+    margin: auto;
+    text-align: center;
+    font-size: 1.4em;
+    padding-bottom: 2em;
+   
+}
+
+.diseño{
+    display: flex;
+    flex-direction: column;
+}
+
+.tarjeta img{
+    width: 150px ;
+}
+  
+  .redes ul li {
+    display: inline;
+    padding: 1.5em;
+  }
+  
+  .redes ul li img{
+    width: 35px;
+  
+  }
+
+  .redes ul {
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+
+@media (min-width: 450px) and (max-width: 1024px) {
+
+    .grupo-tarjetas{
+        flex-direction: column;
+    }
+
+    section .wrap {
+       height: 110vh;
+       flex-direction: column;
+       
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
